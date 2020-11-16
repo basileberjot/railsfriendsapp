@@ -19,6 +19,11 @@ end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+  gem 'sqlite3', '~> 1.4'
+end
+
+group :production do
+	gem 'pg', '~> 1.2', '>= 1.2.3'
 end
 
 group :test do
